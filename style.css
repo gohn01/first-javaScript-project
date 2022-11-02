@@ -1,0 +1,75 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ccc;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.main {
+    max-width: 700px;
+    height: 700px;
+    margin: 100px auto;
+    background-image: url("../images/station.jpg");
+    background-size: cover;
+    border:  #ccc 2px solid;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.main h1 {
+    margin-top:50px;
+    margin-right:100px;
+    margin-left:100px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    padding: 20px;
+    text-shadow: 2px 2px 10px #000 ;
+    border: #ccc 3px solid;
+    background-color: #fff;
+
+}
+.main h2 {
+    font-size: 100px;
+    background-color: #fff;
+    margin: 80px 300px;
+    color: #fff;
+    text-shadow: 2px 2px 10px #000 ;
+    border: #ccc 3px solid;
+}
+
+#increment-btn {
+    background: darkred;
+    color: #fff;
+    font-size: xx-large;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 20px;
+    transition: 0.5s ease-in;
+}
+
+#save-btn {
+    background: darkgreen;
+    color: #fff;
+    font-size: xx-large;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 20px;
+    transition: 0.5s ease-in;
+}
+
+#increment-btn:hover {
+    font-weight: bold;
+    transform: scale(1.1);
+}
+#save-btn:hover{
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+#save-el{
+    font-size: xx-large;
+    font-weight: bold;
+}
